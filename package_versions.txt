@@ -468,13 +468,13 @@ poppler 26.08.0-1
 poppler-glib 26.08.0-1
 popt 1.19-2
 portaudio 1:19.7.0-4
-prismlauncher-git 11.1.1.r864.g736213d-1
+prismlauncher-git 11.1.1.r870.g60bcc26-1
 procps-ng 4.0.7-1
 protobuf 36.1-1
 psmisc 23.7-2
 python 3.14.8-1
 qrencode 4.1.1-4
-qt6-base 6.12.0-2
+qt6-base 6.12.0-3
 qt6-declarative 6.12.0-1
 qt6-imageformats 6.12.0-1
 qt6-networkauth 6.12.0-1
