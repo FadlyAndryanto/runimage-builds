@@ -25,7 +25,7 @@ bluez-libs 5.87-2
 brotli 1.2.0-1
 bzip2 1.0.8-6
 ca-certificates 20240618-1
-ca-certificates-mozilla 3.131-1
+ca-certificates-mozilla 3.131.1-1
 ca-certificates-utils 20240618-1
 cabextract 1.11-3
 cairo 1.18.6-1
@@ -226,7 +226,7 @@ lib32-mesa 1:26.2.5-1
 lib32-ncurses 6.6-2
 lib32-nettle 4.0-2
 lib32-nspr 4.40-1
-lib32-nss 3.131-1
+lib32-nss 3.131.1-1
 lib32-ocl-icd 2.3.5-1
 lib32-openssl 1:3.6.5-1
 lib32-opus 1.6.1-1
@@ -414,7 +414,7 @@ libzip 1.11.4-1
 licenses 20240728-1
 lilv 0.28.0-1
 linux-api-headers 7.3-1
-llvm-libs 23.1.3-3
+llvm-libs 23.1.3-4
 lm_sensors 1:3.6.2-1
 lmdb 0.9.35-1
 lsb-release 2.0.r55.a25a4fc-1
@@ -440,7 +440,7 @@ nettle 4.0-1
 nftables 1:1.1.7-3
 npth 1.8-1
 nspr 4.40-1
-nss 3.131-1
+nss 3.131.1-1
 numactl 2.0.19-1
 ocl-icd 2.3.5-1
 oniguruma 6.9.10-3
@@ -470,11 +470,11 @@ pipewire-audio 1:1.6.9-1
 pipewire-pulse 1:1.6.9-1
 pipewire-session-manager 1:1.6.9-1
 pixman 0.46.4-1
-poppler 26.08.0-1
-poppler-glib 26.08.0-1
+poppler 26.10.0-1
+poppler-glib 26.10.0-1
 popt 1.19-2
 portaudio 1:19.7.0-4
-prismlauncher-git 11.1.1.r876.g804e2a0-1
+prismlauncher-git 11.1.1.r882.g77f2bee-1
 procps-ng 4.0.7-1
 protobuf 36.1-1
 psmisc 23.7-2
