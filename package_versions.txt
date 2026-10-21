@@ -31,7 +31,7 @@ cabextract 1.11-3
 cairo 1.18.6-1
 chaotic-keyring 20230616-1
 chaotic-mirrorlist 20260428-1
-chromium 154.0.8037.97-1
+chromium 155.0.8059.84-1
 cifs-utils 7.9-1
 cmark 0.31.2-1
 coreutils 9.12-2
@@ -89,7 +89,7 @@ gnulib-l10n 20241231-1
 gnupg 2.4.9-3
 gnutls 3.8.13-3
 gocryptfs 2.6.1-1
-gperftools 2.18.1-1
+gperftools 2.19-1
 gpgme 2.2.0-1
 gpgmepp 2.2.0-1
 graphene 1.10.8-2
@@ -116,7 +116,7 @@ highway 1.4.0-1
 hwdata 0.412-1
 iana-etc 20260617-1
 icu 78.3-1
-iproute2 7.2.0-1
+iproute2 7.3.0-1
 iptables 1:1.8.13-1
 iputils 20250605-1
 iso-codes 4.20.1-1
@@ -170,7 +170,7 @@ lib32-libasyncns 1:0.8+r3+g68cd5af-3
 lib32-libcups 2.4.20-1
 lib32-libdatrie 0.2.14-1
 lib32-libdrm 2.4.134-1
-lib32-libelf 0.196-2
+lib32-libelf 0.197-1
 lib32-libepoxy 1.5.10-2
 lib32-libffi 3.8.0-1
 lib32-libgcrypt 1.12.4-1
@@ -274,7 +274,7 @@ libdvdnav 7.0.0-1
 libdvdread 7.1.1-1
 libebur128 1.2.6-2
 libedit 20260512_3.1-1
-libelf 0.196-1
+libelf 0.197-1
 libepoxy 1.5.10-3
 libevdev 1.14.0-1
 libevent 2.1.13-2
@@ -474,14 +474,14 @@ poppler 26.10.0-1
 poppler-glib 26.10.0-1
 popt 1.19-2
 portaudio 1:19.7.0-4
-prismlauncher-git 11.1.1.r882.g77f2bee-1
+prismlauncher-git 11.1.1.r884.g1b09df1-1
 procps-ng 4.0.7-1
 protobuf 36.1-1
 psmisc 23.7-2
 python 3.14.8-1
 qrencode 4.1.1-4
 qt6-base 6.12.0-3
-qt6-declarative 6.12.0-1
+qt6-declarative 6.12.0-2
 qt6-imageformats 6.12.0-1
 qt6-networkauth 6.12.0-1
 qt6-positioning 6.12.0-1
@@ -518,6 +518,7 @@ serd 0.32.10-1
 shaderc 2026.4-1
 shadow 4.20.0.arch1-1
 shared-mime-info 2.5.1-2
+simdutf 9.2.1-2
 slirp4netns 1.3.6-1
 smbclient 2:4.25.0-1
 snappy 1.3.1-1
