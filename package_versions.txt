@@ -5,7 +5,7 @@ adwaita-cursors 51.0-1
 adwaita-fonts 51.0-2
 adwaita-icon-theme 51.0-1
 adwaita-icon-theme-legacy 46.2-3
-alsa-card-profiles 1:1.6.9-1
+alsa-card-profiles 1:1.6.10-1
 alsa-lib 1.2.16.1-1
 alsa-plugins 1:1.2.12-6
 alsa-topology-conf 1.2.5.1-4
@@ -25,7 +25,7 @@ bluez-libs 5.87-2
 brotli 1.2.0-1
 bzip2 1.0.8-6
 ca-certificates 20240618-1
-ca-certificates-mozilla 3.131.1-1
+ca-certificates-mozilla 3.132-1
 ca-certificates-utils 20240618-1
 cabextract 1.11-3
 cairo 1.18.6-1
@@ -89,7 +89,7 @@ gnulib-l10n 20241231-1
 gnupg 2.4.9-3
 gnutls 3.8.13-3
 gocryptfs 2.6.1-1
-gperftools 2.19-1
+gperftools 2.19.1-1
 gpgme 2.2.0-1
 gpgmepp 2.2.0-1
 graphene 1.10.8-2
@@ -185,7 +185,7 @@ lib32-libngtcp2 1.25.0-1
 lib32-libnm 1.58.1-2
 lib32-libogg 1.3.6-1
 lib32-libpciaccess 0.19-1
-lib32-libpipewire 1:1.6.9-1
+lib32-libpipewire 1:1.6.10-1
 lib32-libpng 1.6.59-1
 lib32-libpsl 0.21.5-1
 lib32-libpulse 17.0+r98+gb096704c0-1
@@ -226,14 +226,14 @@ lib32-mesa 1:26.2.5-1
 lib32-ncurses 6.6-2
 lib32-nettle 4.0-2
 lib32-nspr 4.40-1
-lib32-nss 3.131.1-1
+lib32-nss 3.132-1
 lib32-ocl-icd 2.3.5-1
 lib32-openssl 1:3.6.5-1
 lib32-opus 1.6.1-1
 lib32-p11-kit 0.26.5-1
 lib32-pango 1:1.58.2-1
 lib32-pcre2 10.49-1
-lib32-pipewire 1:1.6.9-1
+lib32-pipewire 1:1.6.10-1
 lib32-pixman 0.46.4-1
 lib32-spirv-tools 1:1.4.363.0-1
 lib32-sqlite 3.54.0-1
@@ -330,7 +330,7 @@ libpaper 2.2.8-1
 libpcap 1.11.0-1
 libpciaccess 0.19-1
 libpgm 5.3.128-4
-libpipewire 1:1.6.9-1
+libpipewire 1:1.6.10-1
 libplacebo 7.360.1-7
 libpng 1.6.59-1
 libppd 2.1.1-2
@@ -440,7 +440,7 @@ nettle 4.0-1
 nftables 1:1.1.7-3
 npth 1.8-1
 nspr 4.40-1
-nss 3.131.1-1
+nss 3.132-1
 numactl 2.0.19-1
 ocl-icd 2.3.5-1
 oniguruma 6.9.10-3
@@ -464,11 +464,11 @@ pcre2 10.49-1
 pdfio 1.6.5-1
 perl 5.44.0-1
 pinentry 1.3.3-1
-pipewire 1:1.6.9-1
-pipewire-alsa 1:1.6.9-1
-pipewire-audio 1:1.6.9-1
-pipewire-pulse 1:1.6.9-1
-pipewire-session-manager 1:1.6.9-1
+pipewire 1:1.6.10-1
+pipewire-alsa 1:1.6.10-1
+pipewire-audio 1:1.6.10-1
+pipewire-pulse 1:1.6.10-1
+pipewire-session-manager 1:1.6.10-1
 pixman 0.46.4-1
 poppler 26.10.0-1
 poppler-glib 26.10.0-1
