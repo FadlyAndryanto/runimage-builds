@@ -22,7 +22,7 @@ binutils 2.47-4
 blackarch-keyring 20251011-2
 blackarch-mirrorlist 20260403-1
 bluez-libs 5.87-2
-brotli 1.2.0-1
+brotli 1.2.1-1
 bzip2 1.0.8-6
 ca-certificates 20240618-1
 ca-certificates-mozilla 3.132-1
@@ -31,7 +31,7 @@ cabextract 1.11-3
 cairo 1.18.6-1
 chaotic-keyring 20230616-1
 chaotic-mirrorlist 20260428-1
-chromium 155.0.8059.84-1
+chromium 156.0.8078.47-1
 cifs-utils 7.9-1
 cmark 0.31.2-1
 coreutils 9.12-2
@@ -83,7 +83,7 @@ glib2 2.90.1-1
 glibc 2.44+r50+g1848099f063e-1
 glslang 1:1.4.363.0-1
 glu 9.0.3-3
-glycin 2.2.3-1
+glycin 2.2.4-1
 gmp 6.3.0-3
 gnulib-l10n 20241231-1
 gnupg 2.4.9-3
@@ -178,7 +178,7 @@ lib32-libglvnd 1.7.0-1
 lib32-libgpg-error 1.61-1
 lib32-libidn2 2.3.8-1
 lib32-libjpeg-turbo 3.2.0-1
-lib32-libldap 2.7.1-1
+lib32-libldap 2.7.2-1
 lib32-libnghttp2 1.70.0-1
 lib32-libnghttp3 1.18.0-1
 lib32-libngtcp2 1.25.0-1
@@ -302,7 +302,7 @@ libjxl 0.12.0-1
 libksba 1.8.1-1
 liblc3 1.1.3-2
 libldac 2.0.2.6-1
-libldap 2.7.1-1
+libldap 2.7.2-2
 liblsan 16.2.1+r23+gd564253eb6c8-1
 libmakepkg-dropins 20-2
 libmd 1.3.0-1
@@ -368,7 +368,7 @@ libunistring 1.4.2-1
 libunwind 1.8.3-1
 liburing 2.15-1
 libusb 1.0.30-1
-libuv 1.52.1-2
+libuv 1.53.0-1
 libva 2.24.1-1
 libvdpau 1.5-4
 libverto 0.3.2-6
@@ -474,7 +474,7 @@ poppler 26.10.0-1
 poppler-glib 26.10.0-1
 popt 1.19-2
 portaudio 1:19.7.0-4
-prismlauncher-git 11.1.1.r884.g1b09df1-1
+prismlauncher-git 11.1.1.r906.g6f57239-1
 procps-ng 4.0.7-1
 protobuf 36.1-1
 psmisc 23.7-2
