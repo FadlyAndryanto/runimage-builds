@@ -8,9 +8,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: build-runimage
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 360
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -18,16 +23,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Allocate Swap Space
+      - name: Prepare environment (swap + userns)
         run: |
           sudo fallocate -l 10G /mnt/swapfile-extra
           sudo chmod 600 /mnt/swapfile-extra
           sudo mkswap /mnt/swapfile-extra
           sudo swapon /mnt/swapfile-extra
+          sudo tee /proc/sys/kernel/apparmor_restrict_unprivileged_userns <<<0
 
       - name: Build
         run: |
-          sudo tee /proc/sys/kernel/apparmor_restrict_unprivileged_userns <<<0
           chmod a+x build-runimage.sh
           ./build-runimage.sh
 
@@ -35,7 +40,7 @@ jobs:
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          if [ -f package_versions.txt ] && [ -s package_versions.txt ]; then
+          if [ -s package_versions.txt ]; then
             git add package_versions.txt
             if ! git diff --cached --quiet; then
               git commit -m "chore: auto-update package versions list (keepalive)"

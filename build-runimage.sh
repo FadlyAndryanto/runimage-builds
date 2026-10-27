@@ -6,7 +6,7 @@ if [ ! -f "runimage-x86_64" ]; then
     chmod +x runimage-x86_64
 fi
 
-run_install() {
+run_all() {
     set -e
     WINE_PKGS=(
         wine-staging winetricks-git alsa-lib alsa-plugins cups dosbox ffmpeg giflib
@@ -21,14 +21,15 @@ run_install() {
         wget chromium xorg-server-xvfb
     )
 
+    echo "=== PHASE 1: Installing packages ==="
     sudo sed -i 's/^#Server/Server/' /etc/pacman.d/blackarch-mirrorlist
     rim-update
     pac --needed --noconfirm -S "${WINE_PKGS[@]}" --assume-installed ntsync-autoload
     pac --needed --noconfirm -S "${INSTALL_PKGS[@]}"
     pac -S prismlauncher-git --noconfirm --assume-installed java-runtime=17
-    rim-shrink --all
     ln -sf /var/host/bin/xdg-open /usr/bin/xdg-open
-    cat <<- 'EOF' > "$RUNDIR/config/Run.rcfg"
+
+    cat <<-'EOF' > "$RUNDIR/config/Run.rcfg"
 RIM_SHARE_ICONS="${RIM_SHARE_ICONS:=1}"
 RIM_SHARE_FONTS="${RIM_SHARE_FONTS:=1}"
 RIM_SHARE_THEMES="${RIM_SHARE_THEMES:=1}"
@@ -36,36 +37,22 @@ RIM_HOST_XDG_OPEN="${RIM_HOST_XDG_OPEN:=1}"
 RIM_SYS_NVLIBS="${RIM_SYS_NVLIBS:=1}"
 EOF
 
-    echo "=== PHASE 1: Building Temporary Image for Profiling ==="
-    rim-build -d -c 1 temp-runimage
+    echo "=== PHASE 2: Profiling apps ==="
+    for cmd in mcpelauncher-ui-qt prismlauncher chromium steam; do
+        echo "  → $cmd"
+        timeout 20s xvfb-run -a bash -c "DWARFS_PROFILE=/tmp/runimage.profile $cmd" || true
+    done
 
-    echo "=== PHASE 2: Generating Multi-App DwarFS Profile ==="
-
-    echo "Profiling MCPE Launcher..."
-    timeout 20s xvfb-run -a ./temp-runimage bash -c "DWARFS_PROFILE=/tmp/runimage.profile mcpelauncher-ui-qt" || true
-
-    echo "Profiling Prism Launcher..."
-    timeout 20s xvfb-run -a ./temp-runimage bash -c "DWARFS_PROFILE=/tmp/runimage.profile prismlauncher" || true
-
-    echo "Profiling Firefox..."
-    timeout 20s xvfb-run -a ./temp-runimage bash -c "DWARFS_PROFILE=/tmp/runimage.profile chromium" || true
-
-    echo "Profiling Steam..."
-    timeout 20s xvfb-run -a ./temp-runimage bash -c "DWARFS_PROFILE=/tmp/runimage.profile steam" || true
-
-    echo "=== PHASE 2.5: Cleaning up Profiling Tools ==="
+    echo "=== PHASE 3: Cleanup + shrink ==="
     pac -Rns --noconfirm xorg-server-xvfb
-    rim-shrink --all
+    RIM_SHRINK_PKGCACHE=1 rim-shrink --all
 
-    echo "=== PHASE 3: Building Final Optimized Image ==="
-    rim-build -d -z -c 22 -b 24 -f /tmp/runimage.profile runimage
-
-    rm temp-runimage
+    echo "=== PHASE 4: Building final image ==="
+    rim-build -d -z -c 19 -b 24 -f /tmp/runimage.profile runimage
 }
 
-export -f run_install
-
-RIM_OVERFS_MODE=1 RIM_NO_NVIDIA_CHECK=1 ./runimage-x86_64 bash -c run_install
+export -f run_all
+RIM_OVERFS_MODE=1 RIM_NO_NVIDIA_CHECK=1 ./runimage-x86_64 bash -c run_all
 
 echo "Exporting package list..."
 ./runimage pacman -Q > package_versions.txt
