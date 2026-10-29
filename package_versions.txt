@@ -216,7 +216,7 @@ lib32-libxtst 1.2.5-2
 lib32-libxxf86vm 1.1.7-1
 lib32-llvm-libs 1:23.1.4-1
 lib32-lm_sensors 1:3.6.2-2
-lib32-mesa 1:26.2.5-1
+lib32-mesa 1:26.2.6-1
 lib32-ncurses 6.6-2
 lib32-nettle 4.0-2
 lib32-nspr 4.40-1
@@ -418,10 +418,10 @@ lua54 5.4.9-1
 lv2 1.18.10-2
 lz4 1:1.10.0-2
 lzo 2.10-5
-mcpelauncher-linux-git 1.8.0.r0.gef9ceb8-1
+mcpelauncher-linux-git 1.8.7.r0.g794188c-1
 mcpelauncher-ui-git 1.8.4.r0.g779d057-1
 md4c 0.6.0-2
-mesa 1:26.2.5-1
+mesa 1:26.2.6-1
 ministream 0.99.1-1
 minizip 1:1.3.2-4
 mpdecimal 4.0.1-3
@@ -464,11 +464,11 @@ pipewire-audio 1:1.6.10-1
 pipewire-pulse 1:1.6.10-1
 pipewire-session-manager 1:1.6.10-1
 pixman 0.46.4-1
-poppler 26.10.0-1
-poppler-glib 26.10.0-1
+poppler 26.10.0-2
+poppler-glib 26.10.0-2
 popt 1.19-2
 portaudio 1:19.7.0-4
-prismlauncher-git 11.1.1.r942.g1312f78-1
+prismlauncher-git 11.1.1.r948.g573665f-1
 procps-ng 4.0.7-1
 protobuf 36.1-1
 psmisc 23.7-2
