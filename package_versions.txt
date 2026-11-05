@@ -25,7 +25,7 @@ bluez-libs 5.87-2
 brotli 1.2.1-1
 bzip2 1.0.8-6
 ca-certificates 20240618-1
-ca-certificates-mozilla 3.132-1
+ca-certificates-mozilla 3.133-1
 ca-certificates-utils 20240618-1
 cabextract 1.11-3
 cairo 1.18.6-1
@@ -220,7 +220,7 @@ lib32-mesa 1:26.2.6-1
 lib32-ncurses 6.6-2
 lib32-nettle 4.0-2
 lib32-nspr 4.40-1
-lib32-nss 3.132-1
+lib32-nss 3.133-1
 lib32-ocl-icd 2.3.5-1
 lib32-openssl 1:3.6.5-1
 lib32-opus 1.6.1-1
@@ -434,7 +434,7 @@ nettle 4.0-1
 nftables 1:1.1.7-3
 npth 1.8-1
 nspr 4.40-1
-nss 3.132-1
+nss 3.133-1
 numactl 2.0.19-1
 ocl-icd 2.3.5-1
 oniguruma 6.9.10-3
