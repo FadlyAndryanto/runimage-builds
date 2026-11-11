@@ -475,7 +475,7 @@ protobuf 36.1-1
 psmisc 23.7-2
 python 3.14.10-1
 qrencode 4.1.1-4
-qt6-base 6.12.0-4
+qt6-base 6.12.0-5
 qt6-declarative 6.12.0-4
 qt6-imageformats 6.12.0-1
 qt6-networkauth 6.12.0-1
@@ -505,7 +505,7 @@ sane 1.4.0-4
 sbc 2.2-1
 sdl12-compat 1.2.68-2
 sdl2-compat 2.32.74-1
-sdl3 3.4.18-1
+sdl3 3.4.20-1
 sdl_net 1.2.8-7
 sdl_sound 1.0.3-14
 sed 4.10-2
