@@ -31,7 +31,7 @@ cabextract 1.11-3
 cairo 1.18.6-1
 chaotic-keyring 20230616-1
 chaotic-mirrorlist 20260428-1
-chromium 156.0.8078.79-1
+chromium 157.0.8103.38-1
 cifs-utils 7.9-1
 cmark 0.31.2-1
 coreutils 9.12-3
@@ -179,7 +179,7 @@ lib32-libngtcp2 1.26.0-2
 lib32-libnm 1.58.1-2
 lib32-libogg 1.3.6-1
 lib32-libpciaccess 0.19-1
-lib32-libpipewire 1:1.6.10-1
+lib32-libpipewire 1:1.6.11-1
 lib32-libpng 1.6.59-1
 lib32-libpsl 0.21.5-1
 lib32-libpulse 17.0+r98+gb096704c0-1
@@ -216,7 +216,7 @@ lib32-libxtst 1.2.6-1
 lib32-libxxf86vm 1.1.7-1
 lib32-llvm-libs 1:23.1.4-1
 lib32-lm_sensors 1:3.6.2-2
-lib32-mesa 1:26.2.6-1
+lib32-mesa 1:26.2.7-1
 lib32-ncurses 6.6-2
 lib32-nettle 4.0-2
 lib32-nspr 4.40-1
@@ -227,7 +227,7 @@ lib32-opus 1.6.1-1
 lib32-p11-kit 0.26.5-1
 lib32-pango 1:1.58.2-1
 lib32-pcre2 10.49-1
-lib32-pipewire 1:1.6.10-1
+lib32-pipewire 1:1.6.11-1
 lib32-pixman 0.46.4-1
 lib32-spirv-tools 1:1.4.363.0-1
 lib32-sqlite 3.54.0-1
@@ -421,7 +421,7 @@ lzo 2.10-5
 mcpelauncher-linux-git 1.8.7.r0.g794188c-1
 mcpelauncher-ui-git 1.8.4.r0.g779d057-1
 md4c 0.6.0-2
-mesa 1:26.2.6-1
+mesa 1:26.2.7-1
 ministream 0.99.1-1
 minizip 1:1.4-1
 mpdecimal 4.0.1-3
@@ -469,7 +469,7 @@ poppler 26.10.0-2
 poppler-glib 26.10.0-2
 popt 1.19-2
 portaudio 1:19.7.0-4
-prismlauncher-git 11.1.1.r1020.g00f216c-1
+prismlauncher-git 11.1.1.r1040.g1a6438d-1
 procps-ng 4.0.7-1
 protobuf 36.1-1
 psmisc 23.7-2
