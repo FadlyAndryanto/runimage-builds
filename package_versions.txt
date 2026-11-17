@@ -172,7 +172,7 @@ lib32-libdatrie 0.2.14-1
 lib32-libdrm 2.4.134-1
 lib32-libelf 0.197-1
 lib32-libepoxy 1.5.10-2
-lib32-libffi 3.8.0-1
+lib32-libffi 3.8.1-1
 lib32-libgcrypt 1.12.4-1
 lib32-libglvnd 1.7.0-1
 lib32-libgpg-error 1.61-1
@@ -280,7 +280,7 @@ libevdev 1.14.0-1
 libevent 2.1.13-3
 libexif 0.6.26-1
 libfdk-aac 3.0.0-1
-libffi 3.8.0-1
+libffi 3.8.1-1
 libfreeaptx 0.2.2-1
 libgcc 16.2.1+r23+gd564253eb6c8-1
 libgcrypt 1.12.4-1
@@ -535,7 +535,7 @@ sratom 0.6.22-1
 srt 1.5.7-3
 steam 1.0.0.87-3
 steam-devices 1.0.0.87-3
-svt-av1 4.2.0-1
+svt-av1 4.3.0-1
 systemd-libs 262.2-1
 talloc 2.5.0-2
 tar 1.35-5
@@ -543,7 +543,7 @@ tdb 1.4.15-2
 tevent 1:0.17.2-2
 tinysparql 3.12.0-1
 tomlplusplus 3.4.0-3
-tpm2-tss 4.2.1-2
+tpm2-tss 4.2.2s-1
 tslib 1.24-1
 ttf-bitstream-vera 1.10-16
 ttf-liberation 2.1.5-2
