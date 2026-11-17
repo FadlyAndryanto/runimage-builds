@@ -60,7 +60,7 @@ fake-sudo-pkexec 0.4-1
 fake-systemd 0.10-1
 fakechroot 2.20.1-4
 fakeroot 1.35-1
-ffmpeg 2:9.0.2-3
+ffmpeg 2:9.0.2-5
 fftw 3.3.11-1
 file 5.48-1
 findutils 4.11.0-1
@@ -99,9 +99,9 @@ gsettings-desktop-schemas 51.0-1
 gsettings-system-schemas 51.0-1
 gsm 1.0.24-1
 gssdp 1.6.6-1
-gst-plugins-bad-libs 1.28.9-1
-gst-plugins-base-libs 1.28.9-1
-gstreamer 1.28.9-1
+gst-plugins-bad-libs 1.28.9-2
+gst-plugins-base-libs 1.28.9-2
+gstreamer 1.28.9-2
 gtest 1.18.0-1
 gtk-update-icon-cache 1:4.24.1-1
 gtk3 1:3.24.52-2
@@ -331,7 +331,7 @@ libpcap 1.11.0-1
 libpciaccess 0.19-1
 libpgm 5.3.128-4
 libpipewire 1:1.6.11-1
-libplacebo 7.360.1-7
+libplacebo 7.387.0-1
 libpng 1.6.59-1
 libppd 2.1.1-2
 libproxy 0.5.12-1
@@ -471,11 +471,11 @@ pipewire-audio 1:1.6.11-1
 pipewire-pulse 1:1.6.11-1
 pipewire-session-manager 1:1.6.11-1
 pixman 0.46.4-1
-poppler 26.10.0-2
-poppler-glib 26.10.0-2
+poppler 26.11.0-1
+poppler-glib 26.11.0-1
 popt 1.19-2
 portaudio 1:19.7.0-4
-prismlauncher-git 11.1.1.r1040.g1a6438d-1
+prismlauncher-git 11.1.1.r1051.g15125f1-1
 procps-ng 4.0.7-1
 protobuf 36.1-1
 psmisc 23.7-2
