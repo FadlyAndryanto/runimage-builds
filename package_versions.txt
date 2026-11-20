@@ -31,7 +31,7 @@ cabextract 1.11-3
 cairo 1.18.6-1
 chaotic-keyring 20230616-1
 chaotic-mirrorlist 20260428-1
-chromium 157.0.8103.79-1
+chromium 158.0.8127.36-1
 cifs-utils 7.9-1
 cmark 0.31.2-1
 coreutils 9.12-3
@@ -60,7 +60,7 @@ fake-sudo-pkexec 0.4-1
 fake-systemd 0.10-1
 fakechroot 2.20.1-4
 fakeroot 1.35-1
-ffmpeg 2:9.0.2-5
+ffmpeg 2:9.1-1
 fftw 3.3.11-1
 file 5.48-1
 findutils 4.11.0-1
@@ -83,11 +83,11 @@ glib2 2.90.1-1
 glibc 2.44+r78+gfcfb867c58ab-1
 glslang 1:1.4.363.0-1
 glu 9.0.3-3
-glycin 2.2.6-1
+glycin 2.2.6-2
 gmp 6.3.0-3
 gnulib-l10n 20241231-1
 gnupg 2.4.9-4
-gnutls 3.8.13-3
+gnutls 3.8.14-1
 gocryptfs 2.7.0-1
 gperftools 2.19.3-1
 gpgme 2.2.0-1
@@ -158,7 +158,7 @@ lib32-gdk-pixbuf2 2.44.8-2
 lib32-glib2 2.90.1-1
 lib32-glibc 2.44+r78+gfcfb867c58ab-1
 lib32-gmp 6.3.0-2
-lib32-gnutls 3.8.13-3
+lib32-gnutls 3.8.14-1
 lib32-gtk3 1:3.24.52-2
 lib32-harfbuzz 15.1.0-1
 lib32-icu 78.3-1
@@ -222,7 +222,7 @@ lib32-libxtst 1.2.6-1
 lib32-libxxf86vm 1.1.7-1
 lib32-llvm-libs 1:23.1.5-1
 lib32-lm_sensors 1:3.6.2-2
-lib32-mesa 1:26.3.1-1
+lib32-mesa 1:26.3.1-2
 lib32-ncurses 6.6-2
 lib32-nettle 4.0-2
 lib32-nspr 4.41-1
@@ -263,7 +263,7 @@ libcap-ng 0.9.6-1
 libcloudproviders 0.4.2-1
 libcolord 1.4.8-2
 libcups 2:2.4.20-1
-libcupsfilters 2.2.1.r80.ge1dde819-1
+libcupsfilters 2.2.1.r108.g3bf18925-1
 libdaemon 0.14-6
 libdatrie 0.2.14-1
 libde265 1.1.3-1
@@ -298,7 +298,7 @@ libiec61883 1.2.0-9
 libieee1284 0.2.11-19
 libinput 1.32.0-1
 libjpeg-turbo 3.2.1-1
-libjxl 0.12.0-1
+libjxl 0.13.0-1
 libksba 1.8.1-1
 liblc3 1.1.3-2
 libldac 2.0.2.6-1
@@ -427,7 +427,7 @@ lzo 2.10-5
 mcpelauncher-linux-git 1.8.7.r0.g794188c-1
 mcpelauncher-ui-git 1.8.4.r0.g779d057-1
 md4c 0.6.0-2
-mesa 1:26.3.1-1
+mesa 1:26.3.1-2
 ministream 0.99.1-1
 minizip 1:1.4-1
 mpdecimal 4.0.1-3
@@ -523,7 +523,7 @@ simdutf 9.2.2-1
 slirp4netns 1.3.7-1
 smbclient 2:4.25.1-1
 snappy 1.3.1-1
-sndio 1.10.0-1
+sndio 1.11.0-1
 socat 1.8.1.3-2
 sord 0.16.22-1
 spandsp 3.1.1-1
